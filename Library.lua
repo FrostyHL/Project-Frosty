@@ -1,4 +1,3 @@
-
 --[[
     @gs.cc
 ]]
@@ -7308,5 +7307,3 @@ do
 end
 --
 return library, utility, library.pointers, theme
-
-
