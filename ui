@@ -1,11 +1,11 @@
 -- settings (so u dont have to scroll)
 local settings = {
-    folder_name = "zephyrus"; -- stupid shit
+    folder_name = "Hub"; -- stupid shit
     default_accent = Color3.fromRGB(61, 100, 227); -- also stupid shit
 };
 
-local drawing = loadstring(game:HttpGet("https://gist.githubusercontent.com/notportal/043d5c6024b9307e6fa39e090df4f93e/raw/457097fcf289cff78073046e924ac19c928e9d66/extension.lua"))();
-local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/utility/main/Tween.lua"))()
+local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/FrostyHL/Project-Frosty/main/afafa.lua"))();
+local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/FrostyHL/Project-Frosty/main/tween.lua"))()
 
 -- // UI LIBRARY
 if not isfolder(settings.folder_name) then
